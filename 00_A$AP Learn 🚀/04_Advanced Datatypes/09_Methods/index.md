@@ -16,7 +16,7 @@ type TeslaCar struct {
     // You know... The doors that open up instead of out to the side ¯\_(ツ)_/¯ 
     VerticalDoors bool
     Model         string
-    // Let's say that we want other packages to be able to modify the serial number...
+    // Let's say that we don’t want other packages to be able to modify the serial number...
     serialNo      *int64
 }
 
